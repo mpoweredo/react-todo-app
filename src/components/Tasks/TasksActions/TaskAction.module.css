@@ -1,0 +1,25 @@
+.tasks_action {
+    width: 100%;
+    background-color: #74C69D;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #1B4332;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    font-size: .65em;
+    cursor: pointer;
+}
+
+.tasks_action:hover {
+    background-color: #66ad8a;
+}
+
+.tasks_action:nth-child(1) {
+    border-top-left-radius: 15px;
+}
+
+.tasks_action:nth-child(3) {
+    border-top-right-radius: 15px;
+}

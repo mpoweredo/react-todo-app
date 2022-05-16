@@ -1,0 +1,7 @@
+.add_task {
+    background-color: #addbc7;
+}
+
+.add_task:hover {
+    background-color: #2b8a5f !important;
+}

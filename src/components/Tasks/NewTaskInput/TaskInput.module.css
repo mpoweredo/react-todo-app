@@ -1,0 +1,35 @@
+.task_form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 1em;
+}
+
+.task_form label {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #D8F3DC;
+}
+
+.task_form input {
+    border: 1px #D8F3DC solid;
+    background-color: transparent;
+    outline: transparent;
+    height: 40px;
+    font-size: 1em;
+    padding: 0 .5em;
+    color: #D8F3DC;
+}
+
+.task_button {
+    width: 100%;
+    height: 40px;
+    background-color: #1B4332;
+    color: #B7E4C7;
+    font-size: 1em;
+    border: transparent;
+    outline: transparent;
+    cursor: pointer;
+}
