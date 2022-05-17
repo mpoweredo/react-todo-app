@@ -5,9 +5,9 @@ import styles from './TaskAction.module.css'
 const TaskDone = props => {
 
     return (
-        <div className={`${styles.tasks_action}`}>
+        <button className={`${styles.tasks_action}`} onClick={props.showDoneTasks}>
             <h1>Done Tasks</h1>
-        </div>
+        </button>
     );
 }
 

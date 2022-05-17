@@ -3,7 +3,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    /* padding: 1em; */
     gap: 1em;
 }
 
@@ -21,9 +21,10 @@
     font-size: 1em;
     padding: 0 .5em;
     color: #D8F3DC;
+    border-radius: 4px;
 }
 
-.task_button {
+.task_button, .close_form_button {
     width: 100%;
     height: 40px;
     background-color: #1B4332;
@@ -32,4 +33,25 @@
     border: transparent;
     outline: transparent;
     cursor: pointer;
+    border-radius: 4px;
+}
+
+.close_form_button {
+    margin-top: .5em;
+    background-color: #103a28;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.error {
+    border-color: #ff8080 !important;
+}
+
+.show_error {
+    display: block;
+    color: #fd6262;
+}
+
+.hide_error {
+    display: none !important;
 }

@@ -4,4 +4,14 @@
     gap: 1em;
     width: 100%;
     padding: 1em;
+    height: 100%;
+    overflow-y: auto;
+    flex-shrink: inherit;
+}
+
+.task_list_empty {
+    margin-top: 1em;
+    color: #a6e6c3;
+    align-self: center;
+    font-size: 2em;
 }
